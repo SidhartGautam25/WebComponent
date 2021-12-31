@@ -1,0 +1,19 @@
+
+.parent{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	height:40vh;
+	border:2px solid green;
+}
+.child{
+	height:80%;
+	width:20vw;
+	background-color: black;
+	margin:0.2rem;
+	display:none;
+	color:white;
+	text-align: center;
+	
+	border:2px solid red;
+}

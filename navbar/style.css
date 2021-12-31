@@ -1,0 +1,47 @@
+li{
+  list-style-type: none;
+  margin:0.2vw;
+  font-size:2.5vh;
+  color:white;
+}
+a{
+  text-decoration: none;
+  padding:1vh;
+  color:black;
+}
+a:hover{
+  color:blue;
+}
+nav{
+  width:98.6vw;
+  background-color: black;
+}
+ul{
+  margin:0px;
+  padding:0px;
+  display:flex;
+}
+body{
+  margin:0px;
+}
+.btn1{
+  display: none;
+}
+@media only screen and (max-width: 500px) {
+  ul{
+    flex-direction: column;
+  }
+  li{
+    margin:0px;
+  }
+  a{
+    display:block;
+  }
+  .btn1{
+    display:block;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    align-self:flex-start;
+  }
+}
